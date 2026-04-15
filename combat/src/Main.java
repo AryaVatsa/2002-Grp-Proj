@@ -107,7 +107,7 @@ public class Main {
     private static Difficulty pickDifficulty() {
         System.out.println("\nChoose difficulty:");
         System.out.println("  1. Easy   (3 Goblins)");
-        System.out.println("  2. Medium (1 Goblin + 1 Wolf)");
+        System.out.println("  2. Medium (1 Goblin + 1 Wolf + backup wave)");
         System.out.println("  3. Hard   (2 Goblins + backup wave)");
         System.out.print("Enter: ");
         while (true) {

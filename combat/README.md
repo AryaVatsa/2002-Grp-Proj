@@ -39,23 +39,6 @@ src/
     └── CLIBattleUI.java
 ```
 
-## How to Compile
-
-From the project root (where `src/` lives):
-
-```bash
-# Create output directory
-mkdir -p out
-
-# Compile all Java files
-javac -d out -sourcepath src $(find src -name "*.java")
-```
-
-## How to Run
-
-```bash
-java -cp out Main
-```
 
 ## SOLID Principles Applied
 
